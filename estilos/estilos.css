@@ -10,12 +10,14 @@ nav{
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav ul {
     display: flex;
 }
 nav h3{
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 nav h3 a{
    color: white; 
@@ -24,3 +26,25 @@ nav h3 a{
 h3 a:hover{
     color: grey;
 }
+/* Main Section */
+.main{
+    padding: 20%;
+    text-align: center;
+}
+.products{
+    background-image: url("/src/fondo.jpg");
+    height: 100px;
+    border-radius: 5%;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+}
+.product .content{
+    background-color: white;
+    padding: 20px;
+}
+.product{
+    
+}
+
