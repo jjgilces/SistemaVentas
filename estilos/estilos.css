@@ -1,0 +1,26 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-style: 12px;
+    font-family: Helvetica;
+}
+nav{
+    background-color: #7ACC2D;
+    page-break-after: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+nav h3{
+    padding-right: 10px;
+}
+nav h3 a{
+   color: white; 
+   text-decoration: none;
+}
+h3 a:hover{
+    color: grey;
+}
