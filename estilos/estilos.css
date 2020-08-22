@@ -1,3 +1,12 @@
+/* Variables */
+:root{
+    --verde:#7ACC2D;
+    --blanco: white;
+    --negro: #313337;
+    --space:10px;
+}
+
+/* Variables */
 html,body{
     padding: 0px;
     margin: 0px;
@@ -5,9 +14,9 @@ html,body{
     font-family: Helvetica;
 }
 nav{
-    background-color: #7ACC2D;
-    page-break-after: 10px;
-    color: white;
+    background-color: var(--verde);
+    page-break-after: var(--space);
+    color: var(--blanco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +29,7 @@ nav h3{
     padding-right: 20px;
 }
 nav h3 a{
-   color: white; 
+   color: var(--blanco); 
    text-decoration: none;
 }
 h3 a:hover{
@@ -28,23 +37,44 @@ h3 a:hover{
 }
 /* Main Section */
 .main{
-    padding: 20%;
+    padding: 15%;
     text-align: center;
 }
 .products{
     background-image: url("/src/fondo.jpg");
-    height: 100px;
+    height:20px;
     border-radius: 5%;
     background-size: cover;
-    background-position: center;
-    padding: 10px;
-    display: flex;
-}
-.product .content{
-    background-color: white;
-    padding: 20px;
-}
-.product{
+    background-position: center top;
+    padding: 10%;
+    display:flex;
     
 }
-
+.product .content{
+    background-color: var(--blanco);
+    padding: 15px;
+    box-shadow: 0 0 2px rgb(177, 166, 166);
+}
+.product{
+    padding: var(--space);
+    margin-top: -200px;
+}
+.img-content{
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+.main-button{
+    background-color: var(--verde);
+    width: 100%;
+    padding: var(--space);
+    font-style: 17;
+    color: var(--blanco);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main-button:hover{
+    background-color: #5a9621;
+}
