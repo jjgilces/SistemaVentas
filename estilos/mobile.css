@@ -1,0 +1,13 @@
+@media (max-width:600px){
+  .products,.categorias,.menciones{
+      display: inherit;
+      height: auto;
+  }
+  .product,.categoria{
+      margin-top: auto;
+  }
+  .main{
+      padding: 4%;
+  }
+ 
+}

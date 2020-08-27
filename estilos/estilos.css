@@ -62,6 +62,25 @@ h3 a:hover{
 .img-content{
     text-align: center;
 }
+.categorias{
+    height:20px;
+    border-radius: 5%;
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    display:flex; 
+    border-spacing:200px;
+    margin-top: 200px;
+}
+.categoria .content{
+    background-color: var(--blanco);
+    padding: 15px;
+    box-shadow: 0 0 2px rgb(177, 166, 166);
+}
+.categoria{
+    padding: var(--space);
+    margin-top: -200px;
+}
 img{
     height: 100px;
 }
@@ -77,4 +96,17 @@ img{
 }
 .main-button:hover{
     background-color: #5a9621;
+}
+.content-title{
+    text-align: center;
+    padding: 10%;
+}
+.menciones{
+    padding: 10%;
+    display:flex; 
+}
+.menciones .content-title{
+    padding-block: 100%;
+    padding: 100px;
+    background: #11116;
 }
