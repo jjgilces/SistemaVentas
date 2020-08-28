@@ -63,14 +63,8 @@ h3 a:hover{
     text-align: center;
 }
 .categorias{
-    height:20px;
-    border-radius: 5%;
-    background-size: cover;
-    background-position: center top;
     padding: 10%;
-    display:flex; 
-    border-spacing:200px;
-    margin-top: 200px;
+    display: flex;
 }
 .categoria .content{
     background-color: var(--blanco);
@@ -78,8 +72,9 @@ h3 a:hover{
     box-shadow: 0 0 2px rgb(177, 166, 166);
 }
 .categoria{
-    padding: var(--space);
-    margin-top: -200px;
+    text-align: center;
+    padding: 20px;
+  
 }
 img{
     height: 100px;
@@ -101,12 +96,35 @@ img{
     text-align: center;
     padding: 10%;
 }
-.menciones{
-    padding: 10%;
-    display:flex; 
-}
-.menciones .content-title{
-    padding-block: 100%;
-    padding: 100px;
-    background: #11116;
-}
+
+  
+  /* Mentions */
+  .menciones{
+    display: flex;
+    padding: 5%;
+  }
+  .mencion img{
+    width: 100%;
+  }
+  h2.mention_title{
+    text-align: center;
+  }
+  .mencion{
+    padding: var(--space);
+  }
+  .content_mention{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+  }
+  
+  /* ------------------------------------------- Footer */
+  footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: Helvetica;
+    background-color: var(--negro);
+    padding: var(--space);
+    color: var(--blanco);
+  }
+  .contact a{
+    color: var(--green-color);
+  }
