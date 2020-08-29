@@ -3,7 +3,7 @@
       display: inherit;
       height: auto;
   }
-  .product,.categoria{
+  .product,.categoria,.mencion{
       margin-top: auto;
   }
   .main{
@@ -11,3 +11,32 @@
   }
  
 }
+@media (max-width:800px){
+    .products,.categorias,.menciones{
+        display: inherit;
+        height: auto;
+    }
+    .product,.categoria,.mencion{
+        margin-top: auto;
+    }
+    .main{
+        padding: 4%;
+    }
+   
+  }
+@media (max-width:1000px){
+    .menciones{
+        display: inherit;
+        height: auto;
+        text-align: center;
+
+    }
+    .mencion{
+        margin-top: auto;
+    }
+    .mencion img{
+    width: 200px;
+    height: 200px;
+  }
+   
+  }
